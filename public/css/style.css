@@ -1,0 +1,181 @@
+/*
+Créer par: Lyberate
+*/
+
+#container {
+	display: flex;
+	flex-direction: row;
+}
+
+body {
+	margin: 0; /* Modifie la marge externe */
+	padding: 0; /* Modifie la marge interne */
+	background: black; /* Modifie la couleur de l'arrière plan */
+	color: white; /* Modifie la couleur du texte */
+	font-size: 1.0em; /* Modifie la taille du texte */
+	background-image: url("../img/connect.png"); /* Met l'image en arrière plan */
+}
+
+/*
+@font-face {
+	font-family: 'Daisy_Roots';
+	src: url('../police/Daisy_Roots.eot');
+		url('../police/Daisy_Roots.eot?#iefix') format('embedded-opentype'),
+		url('../police/Daisy_Roots.woff2') format('woff2'),
+		url('../police/Daisy_Roots.woff') format('woff'),
+		url('../police/Daisy_Roots.ttf') format('truetype'),
+		url('../police/Daisy_Roots.svg#Daisy_Roots') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+*/
+
+h1, h2, h3, h4 {
+	color: blue;
+}
+
+.title_header {
+	font-size: 2.2em;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+header, section, footer {
+	border: 3px red solid;
+}
+
+footer {
+	text-align: center;
+}
+
+section {
+	max-width: 100%;
+	background-color: black;
+	margin: 40px 35px 20px 35px;
+	padding: 20px 23px 20px 23px;
+	display: flex;
+}
+
+header {
+	max-width: 100%;
+	margin-top: 40px;
+	padding-left: 30px;
+}
+
+article {
+	margin: 0 10px;
+	padding: 0;
+	flex: 3;
+}
+
+#add {
+	padding-bottom: 50px;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.book {
+	max-width: 60%;
+}
+
+.asideImage {
+	width: 40%;
+	border: 1px red solid;
+	padding: auto;
+}
+
+.image {
+	/* Taille maximum désirée largeur = width OU hauteur = height */
+	max-width: 90%;
+	max-height: 90%;
+	width: 450px; /* Taille maximum de l'image serait bien */
+	height: 520px; /* Taille maximum de l'image serait bien */
+	display: block;
+	margin: auto;
+	align-items: center;
+}
+
+.genreLabel,  .authorLabelSort, .MangaLabelSort, .PolicierLabelSort, .FantastiqueLabelSort, .RomanceLabelSort {
+	position: relative;
+}
+
+.genreLabel {
+	top: 40px;
+	left: 10px;
+}
+
+.authorLabelSort {
+	top: 10px;
+	left: 10px;
+}
+
+.MangaLabelSort {
+	top: 10px;
+	left: 10px;
+}
+
+.PolicierLabelSort {
+	top: 10px;
+	left: 10px;
+}
+
+.FantastiqueLabelSort {
+	top: 10px;
+	left: 10px;
+}
+
+.RomanceLabelSort {
+	top: 10px;
+	left: 10px;
+}
+
+#genre,  #authorSort, #mangaSort, #policierSort, #fantastiqueSort, #romanceSort {
+	position: relative;
+}
+
+#genre {
+	top: 40px;
+	left: 25px;
+}
+
+#authorSort {
+	top: 10px;
+	left: 10px;
+}
+
+#mangaSort {
+	top: 10px;
+	left: 10px;
+}
+
+#policierSort {
+	top: 10px;
+	left: 10px;
+}
+
+#fantastiqueSort {
+	top: 10px;
+	left: 10px;
+}
+
+#romanceSort {
+	top: 10px;
+	left: 10px;
+}
+

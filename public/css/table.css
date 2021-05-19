@@ -1,0 +1,29 @@
+/*
+Créer par: Lyberate
+-------------------
+*/
+
+table, th, td { /* Modifie table, les lignes th et les lignes td de mon tableau */
+	border: 1px solid blue;
+	border-collapse: collapse;
+}
+
+table { /* Modifie table dans mon tableau */
+	max-width: 100%;
+	width: 100%;
+	margin-top: 20px;
+}
+
+th { /* Modifie les lignes du head de mon tableau et de mon foot du tableau */
+	height: 50px;
+	text-align: center;
+}
+
+td { /* Modifie les colonnes de mon tableau */
+	padding: 10px;
+}
+
+tr:hover { /* Modifie la façon dont s'affiche les ligne de mon tableau explication lorsque l'on passe la souris dessus */
+	background-color: #f2f7f8;
+	color: #6897bb;
+}

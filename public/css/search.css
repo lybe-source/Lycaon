@@ -1,0 +1,37 @@
+.surligne1 {
+	font-style: italic;
+	background-color: #ffff00;
+}
+
+.surligne2 {
+	font-style: italic;
+	background-color: #ff99ff;
+}
+
+.surligne3 {
+	font-style: italic;
+	background-color: #ff9999;
+}
+
+.surligne4 {
+	font-style: italic;
+	background-color: #9999ff;
+}
+
+.search, #search {
+	position: relative;
+	top: -80px;
+	left: 700px;
+}
+
+.search {
+	height: 30px;
+}
+
+#search {
+	width: 120px;
+	height: 30px;
+	border-radius: 0px 10px 0px 10px;
+	background-color: green;
+	color: yellow;
+}

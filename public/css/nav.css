@@ -1,0 +1,48 @@
+/*
+Créer par: Lyberate
+-------------------
+*/
+
+#nav ul {
+	list-style-type: none; /* Enlève la puce */
+	position: fixed;
+	margin: -40px 0px 0px 0px;
+	padding: 0px;
+	width: 100%;
+	background-color: #333;
+	overflow: hidden; /* Activer le défilement si le sidenav contient trop de contenu peut prendre comme paramètre auto ou hidden */
+	z-index: 10;
+}
+
+#nav li a {
+	display: flex;
+	flex-direction: row;
+	padding: 14px 10px;
+	width: 181.86px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav li a:hover { /* Lorsque la souris passe dessus */
+	background-color: #D82323; /* Met la couleur en rouge */
+}
+
+#nav li a:hover:not(.active) {
+	background-color: #D82323;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+#nav li {
+	/*border-bottom: 1px solid #555;*/ /* Fait une bordure en bas de la liste */
+	float: left;
+	/*border-right: 1px solid #bbb;*/ /* Met une bordure à droite de la liste */
+}
+
+#nav li:last-child {
+	border-bottom: none;
+}
+

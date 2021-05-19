@@ -1,0 +1,10 @@
+# htaccess
+/.htaccess
+
+# SQL
+/*.sql
+
+# Other files
+/files/
+/public/audio/
+/public/img/

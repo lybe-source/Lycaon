@@ -1,0 +1,222 @@
+/* Liens entre les 2 */
+
+.serieLabel, .titleLabel, .authorLabel, .MangaLabel, .PolicierLabel, .FantastiqueLabel, .RomanceLabel, .resumeLabel, .loveLabel, .imageLabel, .enregistrer_love {
+	position: relative;
+}
+
+#triSerie, #triTitle, #triAuteur, #triGenre, #triLove, #triAddDate, #serieAccueil, #titleAccueil, #authorAccueil, #genreAccueil, #loveAccueil, #addDateAccueil, #serie, #title, #author, #manga, #policier, #fantastique, #romance, #_resume, #love, #imageUpload {
+	position: relative;
+}
+
+/* Page accueil.php */
+
+.tri {
+	position: relative;
+	top: 15px;
+	left: 50px;
+	width: 120px;
+	height: 30px;
+	border-radius: 0px 10px 0px 10px;
+	background-color: green;
+	color: yellow;
+	z-index: 0;
+}
+
+.tri2 {
+	position: relative;
+	top: 25px;
+	left: 110px;
+	width: 120px;
+	height: 30px;
+	border-radius: 0px 10px 0px 10px;
+	background-color: green;
+	color: yellow;
+}
+
+#triSerie {
+	top: 5px;
+	left: 80px;
+}
+
+#triTitle {
+	top: 5px;
+	left: 110px;
+}
+
+#triAuteur {
+	top: 5px;
+	left: 125px;
+}
+
+#triGenre {
+	top: 5px;
+	left: 75px;
+}
+
+#triLove {
+	top: 5px;
+	left: 55px;
+}
+
+#triAddDate {
+	top: 5px;
+	left: 35px;
+}
+
+#serieAccueil {
+	top: 17px;
+	left: 61px;
+}
+
+#titleAccueil {
+	top: 17px;
+	left: 85px;
+}
+
+#authorAccueil {
+	top: 17px;
+	left: 96px;
+}
+
+#genreAccueil {
+	top: 17px;
+	left: 55px;
+}
+
+#loveAccueil {
+	top: 17px;
+	left: 26px;
+}
+
+#addDateAccueil {
+	top: 17px;
+	left: 5px;
+}
+
+/* Page add.php */
+
+.serieLabel {
+	top: 10px;
+	left: 10px;
+}
+
+.titleLabel {
+	top: 20px;
+	left: 10px;
+}
+
+.authorLabel {
+	top: 30px;
+	left: 10px;
+}
+
+.MangaLabel {
+	top: 30px;
+	left: 15px;
+}
+
+.PolicierLabel {
+	top: 40px;
+	left: 10px;
+}
+
+.FantastiqueLabel {
+	top: 30px;
+	left: 95px;
+}
+
+.RomanceLabel {
+	top: 40px;
+	left: 103px;
+}
+
+.resumeLabel {
+	top: 50px;
+	left: 10px;
+}
+
+.imageLabel {
+	top: 45px;
+	left: 10px;
+}
+
+.add {
+	position: relative;
+	top: 50px;
+	left: 90px;
+	width: 120px;
+	height: 30px;
+	border-radius: 0px 10px 0px 10px;
+	background-color: green;
+	color: yellow;
+}
+
+#serie {
+	top: 10px;
+	left: 31px;
+}
+
+#title {
+	top: 20px;
+	left: 34px;
+}
+
+#author {
+	top: 30px;
+	left: 20px;
+}
+/* 5 px left et ça touche la dernière lettre 
++ 35 px */
+#manga {
+	top: 33px;
+	left: 40px;
+}
+/* 0 px ça touche la dernière lettre */
+#policier {
+	top: 43px;
+	left: 35px;
+}
+/* 85 px ça touche la dernière lettre */
+#fantastique {
+	top: 33px;
+	left: 120px;
+}
+/* 93 px ça touche la dernière lettre */
+#romance {
+	top: 43px;
+	left: 128px;
+}
+
+#_resume {
+	top: 50px;
+	left: 10px;
+}
+
+#imageUpload {
+	top: 45px;
+	left: 20px;
+}
+
+
+
+/* Page showbook */
+
+.loveLabel {
+	top: 7px;
+	left: 0px;
+}
+
+.enregistrer_love {
+	top: 10px;
+	left: 0px;
+	width: 120px;
+	height: 30px;
+	border-radius: 0px 10px 0px 10px;
+	background-color: green;
+	color: yellow;
+}
+
+#love {
+	top: 10px;
+	left: 0px;
+}
